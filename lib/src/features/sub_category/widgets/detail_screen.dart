@@ -77,14 +77,20 @@ class _DetailScreenState extends ConsumerState<DetailScreen> {
               style: textStyleMedium.copyWith(height: .84),
             ),
             gapH8,
-            Text(
-              "${widget.model.price}",
-              style: textStyle.copyWith(fontSize: 14, height: 0.74),
-            ),
-            gapH8,
-            Text(
-              "${widget.model.weight}",
-              style: textStyle.copyWith(fontSize: 14, height: 0.74),
+            RichText(
+              text: TextSpan(children: [
+                TextSpan(
+                  text: "${widget.model.price} ₽",
+                  style: textStyle.copyWith(fontSize: 14),
+                ),
+                //390 ₽ · 420г
+                TextSpan(
+                  text: " · ${widget.model.weight}г",
+                  style: textStyle.copyWith(
+                      fontSize: 14,
+                      color: ColorResources.colorBlack.withOpacity(0.4)),
+                )
+              ]),
             ),
             gapH8,
             Text(

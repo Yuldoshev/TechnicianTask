@@ -2,7 +2,6 @@ import 'package:dio/dio.dart';
 import 'package:food_app/src/features/category/model/categories.dart';
 import 'package:retrofit/retrofit.dart';
 
-import '../features/category/model/category_model.dart';
 import '../features/sub_category/model/sub_categories.dart';
 part 'retrofitclient.g.dart';
 
