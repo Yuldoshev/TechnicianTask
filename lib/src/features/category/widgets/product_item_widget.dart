@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:food_app/src/features/category/model/category_model.dart';
-import 'package:food_app/src/features/sub_category/controller/controller.dart';
-import 'package:food_app/src/features/sub_category/sub_category_screen.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../common_widgets/image_networking.dart';

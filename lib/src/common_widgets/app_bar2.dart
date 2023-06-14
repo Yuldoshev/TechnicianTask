@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:food_app/src/constants/app_sizes.dart';
-import 'package:food_app/src/utils/color_resources.dart';
 import 'package:food_app/src/utils/images.dart';
 import 'package:go_router/go_router.dart';
 
