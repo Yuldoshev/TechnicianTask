@@ -1,16 +1,11 @@
 # food_app
 
-A new Flutter project.
+Technician task
 
+State Management: RiverPod
+HTTP Client: Retrofit
+Architecture: MVI
 ## Getting Started
+Video Link
+https://github.com/Yuldoshev/TechnicianTask/assets/15108480/f4bd36d3-4c1f-4dcb-9a8d-89bf04621474
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
